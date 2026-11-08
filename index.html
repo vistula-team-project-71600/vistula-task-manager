@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 20px auto; padding: 0 10px; }
+        .task-item { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 4px; }
+        .completed { text-decoration: line-through; opacity: 0.7; }
+        #status-message { margin: 10px 0; color: #d9534f; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<h1>Task Manager</h1>
+<p>Student ID: <span id="student-id">71600</span></p>
+
+<div id="status-message"></div>
+
+<form id="task-form">
+    <input type="hidden" id="task-id">
+    <div>
+        <label for="task-title">Title *</label><br>
+        <input type="text" id="task-title" required>
+    </div>
+    <br>
+    <div>
+        <label for="task-description">Description</label><br>
+        <textarea id="task-description"></textarea>
+    </div>
+    <br>
+    <button type="submit" id="task-submit">Add Task</button>
+</form>
+
+<hr>
+
+<h2>Tasks</h2>
+<div id="task-list"></div>
+
+<hr>
+
+<p><a id="contribution-link" href="contribution.html">View Team Contribution</a></p>
+
+<script src="app.js"></script>
+</body>
+</html>
