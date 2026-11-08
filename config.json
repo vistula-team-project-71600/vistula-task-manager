@@ -1,5 +1,5 @@
 {
-  "supabaseUrl": "https://xyzexample.supabase.co",
-  "supabasePublishableKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "supabaseUrl": "https://moelqvdytcnmdmqsqtfe.supabase.co",
+  "supabasePublishableKey": "sb_publishable_Ub-ZapePK4MJUJlNUyzCIw_tuKgNuJE",
   "tableName": "tasks"
 }
